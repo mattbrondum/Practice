@@ -86,7 +86,7 @@ class Agent:
                 prop.display()
         else:
             print("This agent has no properties. Try adding one")
-            
+
     def add_property(self):
         """Add a property to the agent's listing"""
         prop_type = ask_question("What kind of property do you want to add? {}", ['Apartment','House'])
